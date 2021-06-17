@@ -1,0 +1,12 @@
+./mysqld --initialize --user=mysql --datadir=/usr/local/mysql-5.7.18/data --basedir=/usr/local/mysql-5.7.18
+
+
+[root@localhost bin]# ./mysqld --initialize --user=mysql --datadir=/usr/local/mysql-5.7.18/data --basedir=/usr/local/mysql-5.7.18
+2021-06-11T13:18:40.037873Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2021-06-11T13:18:41.434210Z 0 [Warning] InnoDB: New log files created, LSN=45790
+2021-06-11T13:18:41.756267Z 0 [Warning] InnoDB: Creating foreign key constraint system tables.
+2021-06-11T13:18:41.957136Z 0 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: 8ab05a2b-cab7-11eb-9dcd-000c291123a2.
+2021-06-11T13:18:41.964859Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2021-06-11T13:18:41.965963Z 1 [Note] A temporary password is generated for root@localhost: GVls.6rzrf1<
+[root@localhost bin]# 
+改成了123456
